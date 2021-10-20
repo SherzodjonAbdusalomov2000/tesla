@@ -1,0 +1,231 @@
+@media(max-width: 1440px){
+    .head{
+        padding:40px;
+    }
+    .header{
+        background-position: center center;
+    }
+
+    .row{
+        padding: 40px;
+        
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .h1{
+        font-size: 90px;
+    }
+    .row{
+        padding: 40px;
+    }
+ 
+    .doc2 {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #000;
+    }
+    
+    .tablo {
+        /* max-width: 1073px;
+        min-height: 195px; */
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-top: 75px;
+        padding-bottom: 30px;
+    }
+    /* .col {
+        margin-left: 30px;
+        text-align: center;
+        margin: 5px;
+        width: 200px;
+        height: 150px;
+        border: 2px solid red;
+    } */
+
+    .col{
+        margin: 0 50px;
+        margin-top: 55px;
+    }
+    .span {
+        font-size: 24px;
+        font-family: 'Roboto Condenced', sans-serif;
+    }
+    .p2 {
+        font-size: 24px;
+        color: #B70021;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    h4 {
+        margin-bottom: 19px;
+        font-size: 24px;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+    }
+    .h2 {
+        font-size: 96px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        /* margin-bottom: 15px; */
+        
+    }
+    h1:hover {
+        color: #B70021;
+        transform: scale(1.3);
+    }
+    .h6 {
+        margin-left: 0px;
+        font-size: 96px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        /* margin-bottom: 15px; */
+    }
+    /* Tablo end */
+    .image {
+        max-width: 900px;
+        min-height: 400px;
+        padding: 30px;
+        margin: 0;
+       
+    }
+
+    .image img{
+        width: 100%;
+        min-height: 400px;
+        margin: 0 auto;
+        object-fit: cover;
+        object-position: center center;
+        margin-bottom: 0;
+    }
+
+    .logoTop{
+        width: 180px;
+        display: inline-block;
+        height: auto;
+    }
+
+    .logoTop img{
+        width: 100%;
+    }
+    .okoshka{
+        width: 40px;
+        height: 40px;
+    }
+    .lmenu{
+        width: 25px;
+        margin: 9px auto;
+        height: none    ;
+       
+    }
+    .doc3_1{
+        max-width: 1200px;
+        min-height: 500px;
+        padding: 20px;
+        margin-top: 0;
+        
+    }
+   
+    .h3{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .p5{
+        margin-top: 30px;
+    }
+    
+}
+
+@media(max-width:800px){
+    .scored-text{
+        display: block;
+    }
+    .scored-img{
+        display: block;
+        width: 100%;
+        height: 200px;
+        margin-top: 30px;
+    }
+    
+    .p3{
+        margin: 20px 0;
+    }
+
+    .img2{
+        margin: 20px;
+        max-width: 100%;
+        min-height: 100%;
+    }
+    ._p1{
+        margin-left: 0;
+    }
+    .TEXT{
+        display: block;
+    }
+    ._p2{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .img2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .doc5_2 {
+      /* max-width: 500px; */
+      padding: 20px;
+    }
+    .doc5_2 li{
+        font-size: 10px;
+    }
+    .doc3_2{
+        display: block;
+    }
+    .doc3_3{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
+@media (max-width: 500px){
+    .header{
+        min-height: 500px;
+        padding-top: 20px;
+
+    }
+   
+    .col{
+        margin: 0 30px;
+    }
+    .row{
+        /* max-width: 200px; */
+        /* min-height: 100px; */
+        margin: 0;
+    }
+    .cont{
+        margin-top: 0;
+    }
+    .h1{
+        font-size: 60px;
+        margin-top: 0;
+        line-height: 30px;
+    }
+    .p1{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+
+    .knopka{
+        padding: 15px 32px;
+        font-size: 14px;
+    }
+    .doc3_1{
+        max-width: 500px;
+        min-height: 300px;
+        padding: 20px;
+    }
+    
+}
